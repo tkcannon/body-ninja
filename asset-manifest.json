@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/body-ninja/static/css/main.14d2616a.css",
+    "main.js": "/body-ninja/static/js/main.7618c07a.js",
+    "static/js/787.243324f7.chunk.js": "/body-ninja/static/js/787.243324f7.chunk.js",
+    "static/media/brendan-stephens-L9WgwqmH5YI-unsplash.jpg": "/body-ninja/static/media/brendan-stephens-L9WgwqmH5YI-unsplash.866ddeab66dd2a335930.jpg",
+    "index.html": "/body-ninja/index.html",
+    "main.14d2616a.css.map": "/body-ninja/static/css/main.14d2616a.css.map",
+    "main.7618c07a.js.map": "/body-ninja/static/js/main.7618c07a.js.map",
+    "787.243324f7.chunk.js.map": "/body-ninja/static/js/787.243324f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14d2616a.css",
+    "static/js/main.7618c07a.js"
+  ]
+}
