@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "cd client && npm start",
+    "predeploy": "cd client && npm run build",
+    "deploy": "cd client && npm run deploy"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/tkcannon/body-ninja/issues"
   },
-  "homepage": "https://github.com/tkcannon/body-ninja#readme"
+  "homepage": "http://tkcannon.github.io/body-ninja/",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
