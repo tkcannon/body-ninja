@@ -1,4 +1,4 @@
-import { List, ListItem, Stack, Typography } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 
 function Hours() {
