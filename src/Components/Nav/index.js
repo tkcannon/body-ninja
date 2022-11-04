@@ -1,37 +1,27 @@
-import { AppBar, Link, Toolbar } from "@mui/material";
+import { AppBar, Toolbar, Link } from "@mui/material";
+
+const NavLink = (props) => {
+  return (
+    <Link href={props.href} variant="h6" color="secondary" underline="none">
+      {props.children}
+    </Link>
+  );
+};
 
 function Nav() {
   return (
-    <AppBar position="sticky">
+    <AppBar position="sticky" sx={{ top: "8vh" }}>
       <nav>
-        <Toolbar sx={{ display: "flex", justifyContent: "flex-end" }}>
-          <Link
-            sx={{ p: 1 }}
-            variant="h5"
-            href="#About"
-            color="inherit"
-            underline="none"
-          >
-            About
-          </Link>
-          <Link
-            sx={{ p: 1 }}
-            variant="h5"
-            href="#Equipment"
-            color="inherit"
-            underline="none"
-          >
-            Equipment
-          </Link>
-          <Link
-            sx={{ p: 1 }}
-            variant="h5"
-            href="#Contact"
-            color="inherit"
-            underline="none"
-          >
-            Contact
-          </Link>
+        <Toolbar
+          sx={{
+            display: "flex",
+            justifyContent: "space-around",
+          }}
+        >
+          <NavLink href="/">Home</NavLink>
+          <NavLink href="#About">About</NavLink>
+          <NavLink href="#Contact">Contact</NavLink>
+          <NavLink href="/Shop">Shop</NavLink>
         </Toolbar>
       </nav>
     </AppBar>

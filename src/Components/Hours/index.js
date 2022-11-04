@@ -1,9 +1,9 @@
 import { Stack, Typography } from "@mui/material";
-import { Container } from "@mui/system";
+import Section from "../Section";
 
 function Hours() {
   return (
-    <Container id="Schedule">
+    <Section id="Schedule">
       <Typography variant="h3" component="h3">
         Open Times
       </Typography>
@@ -30,7 +30,7 @@ function Hours() {
         <Typography component="li">9:00am - 10:00am Intermediate</Typography>
         <Typography component="li">10:00am - 11:00am Weights</Typography>
       </Stack>
-    </Container>
+    </Section>
   );
 }
 export default Hours;

@@ -1,5 +1,5 @@
 #Hero {
-  min-height: 50vh;
+  min-height: 95vh;
   justify-content: center;
   background-image: url("../../assets/temp/brendan-stephens-L9WgwqmH5YI-unsplash.jpg");
   background-repeat: no-repeat;
@@ -7,3 +7,12 @@
   background-attachment: fixed;
   background-position: 25%;
 }
+
+/* .Hero-Gradient {
+  min-height: 95vh;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0)
+  );
+} */
