@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/body-ninja/static/css/main.16e1cf1a.css",
-    "main.js": "/body-ninja/static/js/main.edffa08f.js",
-    "static/js/787.243324f7.chunk.js": "/body-ninja/static/js/787.243324f7.chunk.js",
-    "static/media/brendan-stephens-L9WgwqmH5YI-unsplash.jpg": "/body-ninja/static/media/brendan-stephens-L9WgwqmH5YI-unsplash.866ddeab66dd2a335930.jpg",
+    "main.css": "/body-ninja/static/css/main.bf803daa.css",
+    "main.js": "/body-ninja/static/js/main.957e4cf0.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/body-ninja/static/js/787.c4e7f8f9.chunk.js",
     "static/media/Chloe_0.jpg": "/body-ninja/static/media/Chloe_0.a4b7a7a2f3e7ed52edba.jpg",
     "static/media/Chloe_5.jpg": "/body-ninja/static/media/Chloe_5.c1912ff41badb77726a0.jpg",
     "static/media/Chloe_3.jpg": "/body-ninja/static/media/Chloe_3.0172169f267267225392.jpg",
@@ -11,12 +10,12 @@
     "static/media/Chloe_4.jpg": "/body-ninja/static/media/Chloe_4.b4d7ceda0b19ba1c1dc4.jpg",
     "static/media/Chloe_2.jpg": "/body-ninja/static/media/Chloe_2.6cf3f172d112dc0570cc.jpg",
     "index.html": "/body-ninja/index.html",
-    "main.16e1cf1a.css.map": "/body-ninja/static/css/main.16e1cf1a.css.map",
-    "main.edffa08f.js.map": "/body-ninja/static/js/main.edffa08f.js.map",
-    "787.243324f7.chunk.js.map": "/body-ninja/static/js/787.243324f7.chunk.js.map"
+    "main.bf803daa.css.map": "/body-ninja/static/css/main.bf803daa.css.map",
+    "main.957e4cf0.js.map": "/body-ninja/static/js/main.957e4cf0.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/body-ninja/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16e1cf1a.css",
-    "static/js/main.edffa08f.js"
+    "static/css/main.bf803daa.css",
+    "static/js/main.957e4cf0.js"
   ]
 }
