@@ -16,10 +16,9 @@ function Hero() {
         <Card
           sx={{
             boxShadow: 8,
-            width: 200,
+            width: 300,
             p: 2,
-            ml: "auto",
-            mr: 10,
+            m: "auto",
           }}
         >
           Join a fitness community that is passionate, determined, and

@@ -10,7 +10,8 @@ function Header() {
           variant="h1"
           component="h1"
           color="secondary"
-          position="fixed"
+          position="sticky"
+          sx={{ top: 0 }}
         >
           <span className="Ninja"></span>
           BodyNinja

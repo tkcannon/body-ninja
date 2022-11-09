@@ -1,11 +1,10 @@
 #Hero {
   min-height: 95vh;
   justify-content: center;
-  background-image: url("../../assets/temp/brendan-stephens-L9WgwqmH5YI-unsplash.jpg");
+  background-image: url("../../assets/Chloe_1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 25%;
 }
 
 /* .Hero-Gradient {

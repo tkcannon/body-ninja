@@ -10,7 +10,7 @@ const NavLink = (props) => {
 
 function Nav() {
   return (
-    <AppBar position="sticky" sx={{ top: "8vh" }}>
+    <AppBar position="sticky" sx={{ top: "80px", bottom: 0 }}>
       <nav>
         <Toolbar
           sx={{
@@ -19,7 +19,7 @@ function Nav() {
           }}
         >
           <NavLink href="/">Home</NavLink>
-          <NavLink href="#About">About</NavLink>
+          <NavLink href="/About">About</NavLink>
           <NavLink href="#Contact">Contact</NavLink>
           <NavLink href="/Shop">Shop</NavLink>
         </Toolbar>

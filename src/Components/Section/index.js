@@ -1,12 +1,17 @@
-import { Container, Paper } from "@mui/material";
+import { Box, Container, Paper } from "@mui/material";
 
 function Section(props) {
   return (
-    <section id={props.id} className={props.className}>
-      <Paper elevation={5} sx={{ p: 3, mt: 10 }}>
+    <Box
+      component={"section"}
+      id={props.id}
+      className={props.className}
+      sx={props.sx}
+    >
+      <Paper elevation={20} sx={{ px: 3, py: 7, mt: 5 }}>
         <Container>{props.children}</Container>
       </Paper>
-    </section>
+    </Box>
   );
 }
 
