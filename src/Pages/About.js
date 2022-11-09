@@ -2,17 +2,17 @@ import Nav from "../Components/Nav";
 import { Stack } from "@mui/system";
 import { Typography, ImageList, ImageListItem } from "@mui/material";
 import Chloe_0 from "../assets/Chloe_0.jpg";
-import Chloe_1 from "../assets/Chloe_1.jpg";
 import Chloe_2 from "../assets/Chloe_2.jpg";
 import Chloe_3 from "../assets/Chloe_3.jpg";
 import Chloe_4 from "../assets/Chloe_4.jpg";
 import Chloe_5 from "../assets/Chloe_5.jpg";
 import Section from "../Components/Section";
 
-function About() {
+function About(props) {
+  const { activePage, setActivePage } = props;
   return (
     <>
-      <Nav />
+      <Nav activePage={activePage} setActivePage={setActivePage} />
       <Stack>
         <Section id="About">
           <Typography

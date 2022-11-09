@@ -7,11 +7,12 @@ import Section from "../Components/Section";
 import Hours from "../Components/Hours";
 import Equipment from "../Components/Equipment";
 
-function Home() {
+function Home(props) {
+  const { activePage, setActivePage } = props;
   return (
     <>
       <Hero />
-      <Nav />
+      <Nav activePage={activePage} setActivePage={setActivePage} />
       <Stack spacing={2}>
         <Section id="About">
           <Box

@@ -1,5 +1,4 @@
 import { Box } from "@mui/system";
-import Contact from "../../Pages/Contact";
 
 function Footer() {
   return (
@@ -11,9 +10,7 @@ function Footer() {
         bgcolor: "primary.main",
         color: "secondary.main",
       }}
-    >
-      <Contact />
-    </Box>
+    ></Box>
   );
 }
 

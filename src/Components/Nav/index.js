@@ -1,29 +1,38 @@
-import { AppBar, Toolbar, Link } from "@mui/material";
+import { AppBar, Box, Tab, Tabs, Toolbar } from "@mui/material";
+import { useEffect, useState } from "react";
 
-const NavLink = (props) => {
-  return (
-    <Link href={props.href} variant="h6" color="secondary" underline="none">
-      {props.children}
-    </Link>
-  );
-};
+function Nav(props) {
+  console.log(props);
+  const { activePage, setActivePage } = props;
+  const [value, setValue] = useState(activePage);
 
-function Nav() {
+  useEffect(() => {
+    value !== activePage && setValue(activePage);
+  }, [activePage, value]);
+
   return (
     <AppBar position="sticky" sx={{ top: "80px", bottom: 0 }}>
-      <nav>
-        <Toolbar
-          sx={{
-            display: "flex",
-            justifyContent: "space-around",
+      <Box component={"nav"}>
+        <Tabs
+          variant="fullWidth"
+          value={value || "Home"}
+          onChange={(event, newValue) => {
+            console.log(newValue);
+            setActivePage(newValue);
           }}
+          textColor="secondary"
+          indicatorColor="secondary"
         >
-          <NavLink href="/">Home</NavLink>
-          <NavLink href="/About">About</NavLink>
-          <NavLink href="#Contact">Contact</NavLink>
-          <NavLink href="/Shop">Shop</NavLink>
-        </Toolbar>
-      </nav>
+          <Tab sx={{ color: "secondary.dark" }} label="Home" value="Home" />
+          <Tab sx={{ color: "secondary.dark" }} label="About" value="About" />
+          <Tab
+            sx={{ color: "secondary.dark" }}
+            label="Contact"
+            value="Contact"
+          />
+          <Tab sx={{ color: "secondary.dark" }} label="Shop" value="Shop" />
+        </Tabs>
+      </Box>
     </AppBar>
   );
 }
