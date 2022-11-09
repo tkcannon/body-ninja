@@ -1,11 +1,10 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { createTheme, CssBaseline, ThemeProvider } from "@mui/material";
 import Theme from "./Theme";
 import Header from "./Components/Header";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
-import Contact from "./Pages/Contact";
 import Shop from "./Pages/Shop";
 import Footer from "./Components/Footer";
 
