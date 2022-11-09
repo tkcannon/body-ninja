@@ -1,18 +1,13 @@
 import React from "react";
-import Nav from "../Components/Nav";
 import { Stack } from "@mui/system";
 import { Box, Typography } from "@mui/material";
-import Hero from "../Components/Hero";
 import Section from "../Components/Section";
 import Hours from "../Components/Hours";
 import Equipment from "../Components/Equipment";
 
-function Home(props) {
-  const { activePage, setActivePage } = props;
+function Home() {
   return (
     <>
-      <Hero />
-      <Nav activePage={activePage} setActivePage={setActivePage} />
       <Stack spacing={2}>
         <Section id="About">
           <Box

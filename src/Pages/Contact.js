@@ -6,7 +6,6 @@ import {
   TextareaAutosize,
   Button,
 } from "@mui/material";
-import Nav from "../Components/Nav";
 import Section from "../Components/Section";
 
 function Contact(props) {
@@ -14,7 +13,6 @@ function Contact(props) {
 
   return (
     <>
-      <Nav activePage={activePage} setActivePage={setActivePage} />
       <Section>
         <Box
           id="Contact"

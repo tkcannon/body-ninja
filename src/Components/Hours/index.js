@@ -4,11 +4,7 @@ import Section from "../Section";
 function Hours() {
   return (
     <Section id="Schedule" sx={{ flex: 1 }}>
-      <Typography
-        variant="h3"
-        component="h3"
-        sx={{ borderBottom: "solid 1px black" }}
-      >
+      <Typography variant="h3" component="h3">
         Class Times
       </Typography>
 

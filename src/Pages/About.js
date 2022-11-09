@@ -1,6 +1,6 @@
 import Nav from "../Components/Nav";
 import { Stack } from "@mui/system";
-import { Typography, ImageList, ImageListItem } from "@mui/material";
+import { Box, Typography, ImageList, ImageListItem } from "@mui/material";
 import Chloe_0 from "../assets/Chloe_0.jpg";
 import Chloe_2 from "../assets/Chloe_2.jpg";
 import Chloe_3 from "../assets/Chloe_3.jpg";
@@ -8,20 +8,21 @@ import Chloe_4 from "../assets/Chloe_4.jpg";
 import Chloe_5 from "../assets/Chloe_5.jpg";
 import Section from "../Components/Section";
 
-function About(props) {
-  const { activePage, setActivePage } = props;
+function About() {
   return (
     <>
-      <Nav activePage={activePage} setActivePage={setActivePage} />
       <Stack>
         <Section id="About">
-          <Typography
-            variant="h2"
-            component="h2"
-            sx={{ borderBottom: "1px solid black", mb: 3 }}
-          >
+          <Typography variant="h2" component="h2">
             About
           </Typography>
+          <Box
+            component="img"
+            src={Chloe_2}
+            alt=""
+            loading="lazy"
+            sx={{ maxWidth: "80vw", my: 5, mx: "auto" }}
+          ></Box>
           <Typography variant="p" component="p">
             BodyNinja was created by Founder Chloe Dalton Lawson who used to be
             overweight her entire life. From the age of 3 years old, Chloe was
@@ -62,9 +63,6 @@ function About(props) {
             </ImageListItem>
             <ImageListItem>
               <img src={Chloe_3} alt="" loading="lazy" />
-            </ImageListItem>
-            <ImageListItem>
-              <img src={Chloe_2} alt="" loading="lazy" />
             </ImageListItem>
             <ImageListItem>
               <img src={Chloe_0} alt="" loading="lazy" />

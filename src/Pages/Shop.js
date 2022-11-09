@@ -2,11 +2,9 @@ import { Paper, Typography } from "@mui/material";
 import Nav from "../Components/Nav";
 import Section from "../Components/Section";
 
-function Shop(props) {
-  const { activePage, setActivePage } = props;
+function Shop() {
   return (
     <>
-      <Nav activePage={activePage} setActivePage={setActivePage} />
       <Section sx={{ my: 5 }}>
         <Paper
           sx={{
