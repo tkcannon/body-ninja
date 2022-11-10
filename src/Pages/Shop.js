@@ -1,5 +1,4 @@
 import { Paper, Typography } from "@mui/material";
-import Nav from "../Components/Nav";
 import Section from "../Components/Section";
 
 function Shop() {

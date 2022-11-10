@@ -12,7 +12,6 @@ import Hero from "./Components/Hero";
 
 function App() {
   const [activePage, setActivePage] = useState("Home");
-  const [heroImage, setHeroImage] = useState("./assets/temp/");
 
   return (
     <Theme>

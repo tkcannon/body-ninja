@@ -8,9 +8,7 @@ import {
 } from "@mui/material";
 import Section from "../Components/Section";
 
-function Contact(props) {
-  const { activePage, setActivePage } = props;
-
+function Contact() {
   return (
     <>
       <Section>

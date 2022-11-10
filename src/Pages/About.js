@@ -1,4 +1,3 @@
-import Nav from "../Components/Nav";
 import { Stack } from "@mui/system";
 import { Box, Typography, ImageList, ImageListItem } from "@mui/material";
 import Chloe_0 from "../assets/Chloe_0.jpg";
