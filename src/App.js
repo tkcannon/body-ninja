@@ -7,7 +7,6 @@ import About from "./Pages/About";
 import Shop from "./Pages/Shop";
 import Footer from "./Components/Footer";
 import { useState } from "react";
-import Contact from "./Pages/Contact";
 import Hero from "./Components/Hero";
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
         <Nav activePage={activePage} setActivePage={setActivePage} />
         {activePage === "Home" && <Home />}
         {activePage === "About" && <About />}
-        {activePage === "Contact" && <Contact />}
         {activePage === "Shop" && <Shop />}
         <Footer />
       </div>

@@ -1,12 +1,13 @@
 import FacebookIcon from "@mui/icons-material/Facebook";
 import { Link } from "@mui/material";
 import { Box } from "@mui/system";
+import Map from "../Map";
+import Contact from "../Contact";
 
 function Footer() {
   return (
     <Box
       component={"footer"}
-      color="secondary"
       sx={{
         p: 5,
         textAlign: "center",
@@ -14,6 +15,8 @@ function Footer() {
         color: "secondary.main",
       }}
     >
+      <Map />
+      <Contact />
       <Box>
         <Link
           href="https://www.facebook.com/profile.php?id=100076347166246"

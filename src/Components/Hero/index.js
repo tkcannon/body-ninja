@@ -1,5 +1,5 @@
 import "./style.css";
-import { Card, Typography } from "@mui/material";
+import { Button, Card, Link, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 
 function Hero() {
@@ -19,11 +19,9 @@ function Hero() {
           textShadow: "1px 1px black",
           border: "10px solid rgba(59,110,127,.08)",
           backgroundColor: "rgba(119,221,255,.12)",
-          textAlign: "center",
-          width: 300,
-          p: 4,
-          mt: 45,
-          mx: "auto",
+          p: 3,
+          mt: "auto",
+          mx: 0,
         }}
       >
         <Typography variant="body1" component="p">
@@ -31,6 +29,16 @@ function Hero() {
           supportive. Whether you’re here for a day or committed to years, we’ve
           got exactly what you need. We change each class to fit your needs.
         </Typography>
+        <Link href="#Contact" sx={{ textDecoration: "none" }}>
+          <Button
+            variant="contained"
+            color="secondary"
+            fullWidth
+            sx={{ mt: 2 }}
+          >
+            <Typography sx={{ fontWeight: 700 }}>Contact For Info</Typography>
+          </Button>
+        </Link>
       </Card>
     </Box>
   );

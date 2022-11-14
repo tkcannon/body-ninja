@@ -13,7 +13,7 @@ function About() {
       <Stack>
         <Section id="About">
           <Typography variant="h2" component="h2">
-            About
+            About The Creator
           </Typography>
           <Box
             component="img"
