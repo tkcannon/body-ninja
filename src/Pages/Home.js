@@ -4,6 +4,7 @@ import { Box, Typography } from "@mui/material";
 import Section from "../Components/Section";
 import Hours from "../Components/Hours";
 import Equipment from "../Components/Equipment";
+import FBPlug from "../Components/FBPlug";
 
 function Home() {
   return (
@@ -22,7 +23,7 @@ function Home() {
             </Typography>
             <Typography variant="p" component="p" sx={{ py: 3 }}>
               The BodyNinja bootcamp is a 6 week long fitness class with a focus
-              on weight loss and improving physical heath.
+              on weight loss and improving physical health.
             </Typography>
             <Hours />
             <Equipment />

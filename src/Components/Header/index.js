@@ -1,5 +1,5 @@
 import "./style.css";
-import { AppBar, Toolbar, Typography } from "@mui/material";
+import { AppBar, Box, Toolbar, Typography } from "@mui/material";
 
 function Header() {
   return (
@@ -13,7 +13,6 @@ function Header() {
           position="sticky"
           sx={{ textAlign: "center", top: 0 }}
         >
-          <span className="Ninja"></span>
           BodyNinja
         </Typography>
       </Toolbar>

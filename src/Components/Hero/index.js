@@ -29,13 +29,13 @@ function Hero() {
           supportive. Whether you’re here for a day or committed to years, we’ve
           got exactly what you need. We change each class to fit your needs.
         </Typography>
-        <Link href="#Contact" sx={{ textDecoration: "none" }}>
-          <Button
-            variant="contained"
-            color="secondary"
-            fullWidth
-            sx={{ mt: 2 }}
-          >
+        <Link
+          href="mailto:tkcannon.dev@gmail.com"
+          method="get"
+          encType="application/x-www-form-urlencoded"
+          sx={{ textDecoration: "none" }}
+        >
+          <Button variant="outlined" color="secondary" fullWidth sx={{ mt: 2 }}>
             <Typography sx={{ fontWeight: 700 }}>Contact For Info</Typography>
           </Button>
         </Link>

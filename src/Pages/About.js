@@ -6,6 +6,7 @@ import Chloe_3 from "../assets/Chloe_3.jpg";
 import Chloe_4 from "../assets/Chloe_4.jpg";
 import Chloe_5 from "../assets/Chloe_5.jpg";
 import Section from "../Components/Section";
+import FBPlug from "../Components/FBPlug";
 
 function About() {
   return (
@@ -71,6 +72,7 @@ function About() {
             </ImageListItem>
           </ImageList>
         </Section>
+        <FBPlug />
       </Stack>
     </>
   );

@@ -23,6 +23,9 @@ function Theme(props) {
         minHeight: 72,
       },
     },
+    shape: {
+      borderRadius: 0,
+    },
     typography: {
       fontFamily: "'Poppins'",
       h1: {

@@ -24,7 +24,7 @@ function Nav(props) {
           indicatorColor="secondary"
         >
           <Tab sx={{ color: "secondary.dark" }} label="Home" value="Home" />
-          <Tab sx={{ color: "secondary.dark" }} label="About" value="About" />
+          <Tab sx={{ color: "secondary.dark" }} label="More" value="About" />
           <Tab sx={{ color: "secondary.dark" }} label="Shop" value="Shop" />
         </Tabs>
       </Box>

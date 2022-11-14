@@ -8,7 +8,7 @@ function Section(props) {
       className={props.className}
       sx={props.sx}
     >
-      <Paper elevation={20} sx={{ px: 3, py: 7, mt: 5 }}>
+      <Paper elevation={20} sx={{ px: 2, py: 5, mt: 5 }}>
         <Container>{props.children}</Container>
       </Paper>
     </Box>
