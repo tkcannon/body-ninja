@@ -10,8 +10,16 @@ function Map(props) {
       >
         Loacted At
       </Typography>
+      <Box>
+        <Typography variant="body1" component="p" color="grey">
+          MORI TRAINING CENTER
+        </Typography>
+        <Typography variant="body1" component="p" color="grey">
+          3733 S 250 W OGDEN UT
+        </Typography>
+      </Box>
 
-      <Paper elevation={5} sx={{ flex: 1, minHeight: "25vh" }}>
+      <Paper elevation={5} sx={{ flex: 1, minHeight: "25vh", my: 1 }}>
         <Box
           component={"iframe"}
           sx={{ minHeight: "250px", height: "100%", width: "100%" }}

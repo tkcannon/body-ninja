@@ -17,18 +17,17 @@ function Hero() {
         sx={{
           color: "white",
           textShadow: "1px 1px black",
-          border: "10px solid rgba(59,110,127,.08)",
-          backgroundColor: "rgba(119,221,255,.12)",
+          border: "5px solid rgba(59,110,127,.08)",
+          bgcolor: "rgba(119,221,255,.12)",
           p: 3,
           mt: "auto",
           mx: 0,
         }}
       >
-        <Typography variant="body1" component="p">
-          Join a fitness community that is passionate, determined, and
-          supportive. Whether you’re here for a day or committed to years, we’ve
-          got exactly what you need. We change each class to fit your needs.
+        <Typography variant="h4" component="p">
+          JOIN THE BODYNINJA BOOTCAMP
         </Typography>
+
         <Link
           href="mailto:tkcannon.dev@gmail.com"
           method="get"

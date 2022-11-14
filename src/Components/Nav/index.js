@@ -11,7 +11,7 @@ function Nav(props) {
   }, [activePage, value]);
 
   return (
-    <AppBar position="sticky" sx={{ top: "80px", bottom: 0 }}>
+    <AppBar position="sticky" sx={{ top: 90, bottom: 0 }}>
       <Box component={"nav"}>
         <Tabs
           variant="fullWidth"

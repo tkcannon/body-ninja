@@ -17,6 +17,12 @@ function Hours() {
           6:00pm - 7:00pm: Intermediate / Advanced
         </Typography>
         <Typography variant="h5" component="h4" sx={{ py: 1 }}>
+          Tuesday, Thursday
+        </Typography>
+        <Typography component="li">
+          11:00am - 12:00am Intermediate / Advanced
+        </Typography>
+        <Typography variant="h5" component="h4" sx={{ py: 1 }}>
           Saturday
         </Typography>
         <Typography component="li">

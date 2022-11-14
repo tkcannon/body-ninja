@@ -23,7 +23,10 @@ function Home() {
             </Typography>
             <Typography variant="p" component="p" sx={{ py: 3 }}>
               The BodyNinja bootcamp is a 6 week long fitness class with a focus
-              on weight loss and improving physical health.
+              on weight loss and improving physical health. Join a fitness
+              community that is passionate, determined, and supportive. Whether
+              you’re here for a day or committed to years, we’ve got exactly
+              what you need. We change each class to fit your needs.
             </Typography>
             <Hours />
             <Equipment />

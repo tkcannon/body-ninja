@@ -13,7 +13,7 @@ function Footer() {
           color: "grey",
           textAlign: "left",
           mx: "auto",
-          my: 2,
+          my: 1,
           py: 1,
           width: "100%",
           borderBottom: "1px solid",
