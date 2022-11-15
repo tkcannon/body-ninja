@@ -8,11 +8,12 @@ import Chloe_5 from "../assets/Chloe_5.jpg";
 import Section from "../Components/Section";
 import FBPlug from "../Components/FBPlug";
 
-function About() {
+function More() {
   return (
     <>
       <Stack>
-        <Section id="About">
+        <Box sx={{ height: 100 }}></Box>
+        <Section id="More">
           <Typography variant="h2" component="h2">
             About The Creator
           </Typography>
@@ -77,4 +78,4 @@ function About() {
     </>
   );
 }
-export default About;
+export default More;

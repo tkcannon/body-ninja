@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <Stack spacing={2}>
-        <Section id="About">
+        <Section>
           <Box
             sx={{
               display: "flex",

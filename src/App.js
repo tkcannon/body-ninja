@@ -3,7 +3,7 @@ import Theme from "./Theme";
 import Header from "./Components/Header";
 import Nav from "./Components/Nav";
 import Home from "./Pages/Home";
-import About from "./Pages/About";
+import More from "./Pages/More";
 import Shop from "./Pages/Shop";
 import Footer from "./Components/Footer";
 import { useState } from "react";
@@ -19,7 +19,7 @@ function App() {
         {activePage === "Home" && <Hero />}
         <Nav activePage={activePage} setActivePage={setActivePage} />
         {activePage === "Home" && <Home />}
-        {activePage === "About" && <About />}
+        {activePage === "More" && <More />}
         {activePage === "Shop" && <Shop />}
         <Footer />
       </div>
