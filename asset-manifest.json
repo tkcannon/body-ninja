@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/body-ninja/static/css/main.bf803daa.css",
-    "main.js": "/body-ninja/static/js/main.b1356ae5.js",
+    "main.css": "/body-ninja/static/css/main.d81ee2e2.css",
+    "main.js": "/body-ninja/static/js/main.893fbecc.js",
     "static/js/787.c4e7f8f9.chunk.js": "/body-ninja/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/20221112_110926.jpg": "/body-ninja/static/media/20221112_110926.a12de332c8ee8b8d8bb7.jpg",
+    "static/media/20221112_110953.jpg": "/body-ninja/static/media/20221112_110953.06acb56f53cf8ae340ab.jpg",
+    "static/media/20221112_111008.jpg": "/body-ninja/static/media/20221112_111008.a60c2fd66226d14da7f6.jpg",
     "static/media/Chloe_0.jpg": "/body-ninja/static/media/Chloe_0.a4b7a7a2f3e7ed52edba.jpg",
     "static/media/Chloe_5.jpg": "/body-ninja/static/media/Chloe_5.c1912ff41badb77726a0.jpg",
     "static/media/Chloe_3.jpg": "/body-ninja/static/media/Chloe_3.0172169f267267225392.jpg",
@@ -10,12 +13,12 @@
     "static/media/Chloe_4.jpg": "/body-ninja/static/media/Chloe_4.b4d7ceda0b19ba1c1dc4.jpg",
     "static/media/Chloe_2.jpg": "/body-ninja/static/media/Chloe_2.6cf3f172d112dc0570cc.jpg",
     "index.html": "/body-ninja/index.html",
-    "main.bf803daa.css.map": "/body-ninja/static/css/main.bf803daa.css.map",
-    "main.b1356ae5.js.map": "/body-ninja/static/js/main.b1356ae5.js.map",
+    "main.d81ee2e2.css.map": "/body-ninja/static/css/main.d81ee2e2.css.map",
+    "main.893fbecc.js.map": "/body-ninja/static/js/main.893fbecc.js.map",
     "787.c4e7f8f9.chunk.js.map": "/body-ninja/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf803daa.css",
-    "static/js/main.b1356ae5.js"
+    "static/css/main.d81ee2e2.css",
+    "static/js/main.893fbecc.js"
   ]
 }
