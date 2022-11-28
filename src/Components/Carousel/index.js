@@ -1,5 +1,5 @@
 import "./style.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function Carousel({ images }) {
   const [activeImage, setActiveImage] = useState(0);

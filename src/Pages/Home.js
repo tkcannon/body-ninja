@@ -1,23 +1,22 @@
 import React from "react";
 import { Stack } from "@mui/system";
-import { Box, Typography } from "@mui/material";
-import Section from "../Components/Section";
+import { Box, Paper, Typography } from "@mui/material";
 import Hours from "../Components/Hours";
 import Equipment from "../Components/Equipment";
-import FBPlug from "../Components/FBPlug";
+import Section from "../Components/Section";
 
 function Home() {
   return (
     <>
-      <Stack spacing={2}>
-        <Section>
-          <Box
-            sx={{
-              display: "flex",
-              flexWrap: "wrap",
-              justifyContent: "space-between",
-            }}
-          >
+      <Section>
+        <Box
+          sx={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-between",
+          }}
+        >
+          <Box sx={{ mx: "auto" }}>
             <Typography variant="h2" component="h2">
               About the Bootcamp
             </Typography>
@@ -28,11 +27,17 @@ function Home() {
               you’re here for a day or committed to years, we’ve got exactly
               what you need. We change each class to fit your needs.
             </Typography>
-            <Hours />
-            <Equipment />
           </Box>
-        </Section>
-      </Stack>
+          <Box sx={{ display: "flex", flexWrap: "wrap" }}>
+            <Box sx={{ flex: 1 }}>
+              <Hours />
+            </Box>
+            <Box sx={{ flex: 2 }}>
+              <Equipment />
+            </Box>
+          </Box>
+        </Box>
+      </Section>
     </>
   );
 }

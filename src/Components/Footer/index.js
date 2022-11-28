@@ -1,55 +1,32 @@
 import FacebookIcon from "@mui/icons-material/Facebook";
-import { Link, Stack, Typography } from "@mui/material";
+import { Link } from "@mui/material";
 import { Box } from "@mui/system";
 import Map from "../Map";
-import Contact from "../Contact";
 import { Instagram } from "@mui/icons-material";
 
 function Footer() {
-  const TextGroup = (props) => {
-    return (
-      <Stack
-        sx={{
-          color: "grey",
-          textAlign: "left",
-          mx: "auto",
-          my: 1,
-          py: 1,
-          width: "100%",
-          borderBottom: "1px solid",
-        }}
-      >
-        {props.children}
-      </Stack>
-    );
-  };
-
   return (
     <Box
       component={"footer"}
       sx={{
-        p: 5,
         textAlign: "center",
         bgcolor: "primary.main",
         color: "secondary.main",
       }}
     >
-      <Map />
+      <Box sx={{ display: "flex", justifyContent: "center", m: 2 }}>
+        <Map />
+      </Box>
+      {/* links */}
       <Box
         sx={{
           m: 0,
-          p: 0,
+          py: 2,
           display: "flex",
           flexWrap: "wrap",
+          borderTop: "1px solid grey",
         }}
       >
-        <TextGroup>
-          <Contact />
-          <Typography color="grey">PlaceHolder</Typography>
-          <Typography color="grey">PlaceHolder</Typography>
-          <Typography color="grey">PlaceHolder</Typography>
-          <Typography color="grey">PlaceHolder</Typography>
-        </TextGroup>
         <Box sx={{ m: "auto" }}>
           <Link
             href="https://www.facebook.com/profile.php?id=100076347166246"

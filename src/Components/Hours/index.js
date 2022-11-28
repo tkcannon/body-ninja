@@ -1,9 +1,8 @@
-import { Stack, Typography } from "@mui/material";
-import Section from "../Section";
+import { Paper, Stack, Typography } from "@mui/material";
 
 function Hours() {
   return (
-    <Section id="Schedule" sx={{ flex: 1 }}>
+    <Paper elevation={5} sx={{ p: 3, m: 3 }} id="Schedule">
       <Typography variant="h3" component="h3">
         Class Times
       </Typography>
@@ -30,7 +29,7 @@ function Hours() {
         </Typography>
         <Typography component="li">10:00am - 11:00am Weights</Typography>
       </Stack>
-    </Section>
+    </Paper>
   );
 }
 export default Hours;

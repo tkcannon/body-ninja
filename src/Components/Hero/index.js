@@ -13,15 +13,17 @@ function Hero() {
       }}
     >
       <Card
+        className="cta"
         elevation={5}
         sx={{
+          maxWidth: "500px",
           color: "white",
           textShadow: "1px 1px black",
           border: "5px solid rgba(59,110,127,.08)",
           bgcolor: "rgba(119,221,255,.12)",
           p: 3,
           mt: "auto",
-          mx: 0,
+          mx: "auto",
         }}
       >
         <Typography variant="h4" component="p">

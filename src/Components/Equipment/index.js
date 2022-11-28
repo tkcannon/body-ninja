@@ -1,4 +1,3 @@
-import Section from "../Section";
 import { Box, Paper, Stack, Typography } from "@mui/material";
 import Carousel from "../Carousel";
 import image0 from "../../assets/Equipment/20221112_110926.jpg";
@@ -22,8 +21,12 @@ function Equipment() {
     },
   ];
   return (
-    <Box>
-      <Section id="Equipment" sx={{ flex: 1, mx: "auto" }}>
+    <Paper
+      id="Equipment"
+      elevation={5}
+      sx={{ display: "flex", flexWrap: "wrap", m: 3 }}
+    >
+      <Box sx={{ flex: 1, p: 3 }}>
         <Typography variant="h3" component="h3">
           Equipment
         </Typography>
@@ -39,11 +42,12 @@ function Equipment() {
           <Typography component="li">Boxing Bags & Gloves</Typography>
           <Typography component="li">Ellipticals</Typography>
         </Stack>
-      </Section>
-      <Paper elevation={20}>
+      </Box>
+      <Box sx={{ flex: 1, minWidth: "300px" }}>
         <Carousel images={images} />
-      </Paper>
-    </Box>
+      </Box>
+    </Paper>
   );
 }
+
 export default Equipment;
