@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/body-ninja/static/css/main.d81ee2e2.css",
-    "main.js": "/body-ninja/static/js/main.893fbecc.js",
+    "main.js": "/body-ninja/static/js/main.97ce8d25.js",
     "static/js/787.c4e7f8f9.chunk.js": "/body-ninja/static/js/787.c4e7f8f9.chunk.js",
     "static/media/20221112_110926.jpg": "/body-ninja/static/media/20221112_110926.a12de332c8ee8b8d8bb7.jpg",
     "static/media/20221112_110953.jpg": "/body-ninja/static/media/20221112_110953.06acb56f53cf8ae340ab.jpg",
@@ -14,11 +14,11 @@
     "static/media/Chloe_2.jpg": "/body-ninja/static/media/Chloe_2.6cf3f172d112dc0570cc.jpg",
     "index.html": "/body-ninja/index.html",
     "main.d81ee2e2.css.map": "/body-ninja/static/css/main.d81ee2e2.css.map",
-    "main.893fbecc.js.map": "/body-ninja/static/js/main.893fbecc.js.map",
+    "main.97ce8d25.js.map": "/body-ninja/static/js/main.97ce8d25.js.map",
     "787.c4e7f8f9.chunk.js.map": "/body-ninja/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d81ee2e2.css",
-    "static/js/main.893fbecc.js"
+    "static/js/main.97ce8d25.js"
   ]
 }
