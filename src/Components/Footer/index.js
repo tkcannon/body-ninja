@@ -3,6 +3,7 @@ import { Link } from "@mui/material";
 import { Box } from "@mui/system";
 import Map from "../Map";
 import { Instagram } from "@mui/icons-material";
+import FBPlug from "../FBPlug";
 
 function Footer() {
   return (
@@ -14,8 +15,20 @@ function Footer() {
         color: "secondary.main",
       }}
     >
-      <Box sx={{ display: "flex", justifyContent: "center", m: 2 }}>
-        <Map />
+      <Box
+        sx={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "space-evenly",
+          m: 2,
+        }}
+      >
+        <Box>
+          <Map />
+        </Box>
+        <Box>
+          <FBPlug />
+        </Box>
       </Box>
       {/* links */}
       <Box

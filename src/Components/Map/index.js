@@ -1,8 +1,15 @@
 import { Paper, Box, Typography } from "@mui/material";
 
-function Map(props) {
+function Map() {
   return (
-    <Box sx={{ maxWidth: "500px" }}>
+    <Box
+      sx={{
+        height: "100%",
+        maxWidth: "500px",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
       <Typography
         variant="h6"
         component="h6"

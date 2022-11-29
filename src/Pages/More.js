@@ -23,7 +23,7 @@ function More() {
             About The Creator
           </Typography>
           <Box sx={{ display: "flex", flexWrap: "wrap" }}>
-            <Typography variant="p" component="p" sx={{ p: 1, flex: 1 }}>
+            <Typography variant="p" component="p" sx={{ py: 3, flex: 1 }}>
               BodyNinja was created by Founder Chloe Dalton Lawson who used to
               be overweight her entire life. From the age of 3 years old, Chloe
               was considered “chubby” and by the time she was an adult she was
@@ -62,7 +62,7 @@ function More() {
               variant="masonry"
               cols={2}
               gap={4}
-              sx={{ flex: 1, minWidth: "300px" }}
+              sx={{ flex: 1, m: 3, minWidth: "300px" }}
             >
               <ImageListItem>
                 <img src={Chloe_2} alt="" loading="lazy" />
